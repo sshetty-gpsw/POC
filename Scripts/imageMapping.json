@@ -1,0 +1,29 @@
+{ 
+    "cameraList.png" :{
+        "salesforceProduction":"https://developer.gopro.com/servlet/rtaImage?eid=ka0o0000000Wxcv&feoid=00No000000DNYwu&refid=0EMo0000000HpxT",
+        "salesforceSandbox":"",
+        "local": "cameraList.png"
+      },
+    "info.png" :{
+        "salesforceProduction":"https://developer.gopro.com/servlet/rtaImage?eid=ka0o0000000Wxcv&feoid=00No000000DNYwu&refid=0EMo0000000HpxY",
+        "salesforceSandbox":"",
+        "local": "info.png"
+      }, 
+   
+    "media.png" :{
+        "salesforceProduction":"https://developer.gopro.com/servlet/rtaImage?eid=ka0o0000000Wxcv&feoid=00No000000DNYwu&refid=0EMo0000000Hpxd",
+        "salesforceSandbox":"",
+        "local": "media.png"
+      },
+    "gopro-screenshot1.png" :{
+        "salesforceProduction":"https://developer.gopro.com/servlet/rtaImage?eid=ka0o0000000Wxcv&feoid=00No000000DNYwu&refid=0EMo0000000Hpxi",
+        "salesforceSandbox":"",
+        "local": "gopro-screenshot1.png"
+      },
+    "gopro-screenshot2.png" :{
+        "salesforceProduction":"https://developer.gopro.com/servlet/rtaImage?eid=ka0o0000000Wxcv&feoid=00No000000DNYwu&refid=0EMo0000000Hpxn",
+        "salesforceSandbox":"",
+        "local": "gopro-screenshot2.png"
+      }
+}
+
