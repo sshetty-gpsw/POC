@@ -16,7 +16,7 @@ Open index.html to view the API reference documentation.
 
 You can get started with step-by-step tutorials. 
 
-* [Getting Started](iOS-Getting-Started): How to set up the IDE and run a sample project that does camera discovery and other basic functionality
+* [Getting Started](iOS-Getting-Started.html): How to set up the IDE and run a sample project that does camera discovery and other basic functionality
 * [How to Manage Shutter Modes](iOS-How-to-Manage-Shutter-Modes.html): How to set the camera for modes such as video, photo, and multishot.
 * [How to Display a Camera Preview](iOS-How-to-Display-a-Camera-Preview.html): How to show a preview of what the camera currently sees.
 * [How to Display What Media is on the Camera's SD Card](iOS-How-to-Display-Media-from-the-SD-Card.html): How to get a list of media files on the camera and display thumbnails for them
