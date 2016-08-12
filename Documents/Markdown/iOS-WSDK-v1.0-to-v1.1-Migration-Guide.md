@@ -1,7 +1,7 @@
 This document describes the changes that need to be made when migrating your iOS app from
 version 1.0 of the WSDK to version 1.1.
 
-Read the [Introduction](iOS-Introduction.md) to learn more about the iOS WSDK.
+Read the [Introduction](iOS-Introduction.html) to learn more about the iOS WSDK.
 
 # Key Changes
 

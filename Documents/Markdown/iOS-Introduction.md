@@ -17,10 +17,10 @@ Open index.html to view the API reference documentation.
 You can get started with step-by-step tutorials. 
 
 * [Getting Started](iOS-Getting-Started): How to set up the IDE and run a sample project that does camera discovery and other basic functionality
-* [How to Manage Shutter Modes](iOS-How-to-Manage-Shutter-Modes.md): How to set the camera for modes such as video, photo, and multishot.
-* [How to Display a Camera Preview](iOS-How-to-Display-a-Camera-Preview.md): How to show a preview of what the camera currently sees.
-* [How to Display What Media is on the Camera's SD Card](iOS-How-to-Display-Media-from-the-SD-Card.md): How to get a list of media files on the camera and display thumbnails for them
-* [How to Change the Camera Settings](iOS-How-to-Change-the-Camera-Settings.md): How to change settings such as resolution, frames per second, and whether to adapt to low light.
+* [How to Manage Shutter Modes](iOS-How-to-Manage-Shutter-Modes.html): How to set the camera for modes such as video, photo, and multishot.
+* [How to Display a Camera Preview](iOS-How-to-Display-a-Camera-Preview.html): How to show a preview of what the camera currently sees.
+* [How to Display What Media is on the Camera's SD Card](iOS-How-to-Display-Media-from-the-SD-Card.html): How to get a list of media files on the camera and display thumbnails for them
+* [How to Change the Camera Settings](iOS-How-to-Change-the-Camera-Settings.html): How to change settings such as resolution, frames per second, and whether to adapt to low light.
 
 The GoPro iOS SDK consists of two components:
 

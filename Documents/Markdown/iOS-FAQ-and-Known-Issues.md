@@ -24,14 +24,14 @@ Currently, you cannot configure the camera's Wi-Fi settings through the WSDK.
 ## After I have paired the camera using the GoPro official app, how do I pair/re-pair using GoPro WSDK?
 
 Once you have succesfully paired for the first time, you can use the WSDK to search for available 
-cameras and connect to one of them. See the [Getting Started](iOS-Getting-Started.md#camera-discovery) tutorial.
+cameras and connect to one of them. See the [Getting Started](iOS-Getting-Started.html#camera-discovery) tutorial.
 
 ## How can I display live streaming from a HERO4 camera?
 
 First, pass a **UIView** object into the **setStreamingVideoView** method 
 of the **GPCamera** class. Then call the **startStreaming** on the **GPCamera** object.
 
-See the [How to Display a Camera Preview](iOS-How-to-Display-a-Camera-Preview.md) tutorial.
+See the [How to Display a Camera Preview](iOS-How-to-Display-a-Camera-Preview.html) tutorial.
 
 ## How do I get the camera model?
 
@@ -55,16 +55,16 @@ The GoPro WSDK can fetch a list of media files on the camera's SD card and provi
 for each file, as well as a URL to the high resolution and low resolution versions of each file. 
 Once you have the URL, you can download and display it however you like. 
 
-See the [How to Display What Media is on the Camera's SD Card](iOS-How-to-Display-Media-from-the-SD-Card.md) tutorial.
+See the [How to Display What Media is on the Camera's SD Card](iOS-How-to-Display-Media-from-the-SD-Card.html) tutorial.
 
 ## How should I handle camera settings and modes?
 
 The GoPro WSDK allows you to retrieve and set the camera settings, such as
 video resolution, video frames per second, and
-video low light setting. See the [How to Change the Camera Settings](iOS-How-to-Change-the-Camera-Settings.md) tutorial.
+video low light setting. See the [How to Change the Camera Settings](iOS-How-to-Change-the-Camera-Settings.html) tutorial.
 
 We recommend that you retrieve and display the supported modes and submodes of the each camera
-using the WSDK, as shown in the [How to Manage Shutter Modes](iOS-How-to-Manage-Shutter-Modes.md) tutorial.
+using the WSDK, as shown in the [How to Manage Shutter Modes](iOS-How-to-Manage-Shutter-Modes.html) tutorial.
 This way, you are guaranteed to only show the user the modes that are supported by that camera model.
 
 Refer to the file **camera_settings_and_video_resolution_settings.xls** in the **Documents** folder 
@@ -78,7 +78,7 @@ There are three ways you can offload files:
     and attach the card reader to your computer.
 * **USB cable:** Connect the camera to your computer via USB cable. If you are connected to the 
     camera over Wi-Fi, the Wi-Fi connection is lost.
-* **Over Wi-Fi:** See the [How to Display What Media is on the Camera's SD Card](iOS-How-to-Display-Media-from-the-SD-Card.md) tutorial.
+* **Over Wi-Fi:** See the [How to Display What Media is on the Camera's SD Card](iOS-How-to-Display-Media-from-the-SD-Card.html) tutorial.
 
 **Note:** You cannot offload any media file from the SD card while you are recording.
 
@@ -100,7 +100,7 @@ Although the parameter is intended to specify either Wi-Fi or Bluetooth operatio
 The following are known issues for the iOS WSDK:
 
 * Deleting one chaptered video deletes all chapters.
-* GoPro Cameras do not support SSL requests. Accordingly please set “Allow Arbitrary Loads” to YES in app’s info.plist. See [Getting Started](iOS-Getting-Started.md#disable-apptransportsecurity) for more information.
+* GoPro Cameras do not support SSL requests. Accordingly please set “Allow Arbitrary Loads” to YES in app’s info.plist. See [Getting Started](iOS-Getting-Started.html#disable-apptransportsecurity) for more information.
 * **GPCameraScanResult.displayName** returns the model name instead of the user-entered name.
 * Low light setting in the sample app does not match the one set on the camera.
 * **GPCamera.setPower:** must be called on the main thread. The behavior is undefined when this method is called from any other thread.
